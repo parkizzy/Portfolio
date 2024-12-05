@@ -1,0 +1,193 @@
+/* ERROR missing most of the rule sets you will need for your homepage middle section, many issues with rules for your header and footer, work on getting some more code in and then I will give feedback, add questions as comments if you are unsure how to do something you are trying to do*/
+
+/* ERROR missing assignment 5 CSS requirements */
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+body {
+	background-color: white;
+	font-size: 15px;
+	color: black;
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family: alarm;
+	src: url('alarm clock.ttf');
+}
+
+@font-face{
+	font-family: Techno;
+	src: url('LEDLIGHT.otf');
+}
+
+@font-face{
+	font-family: Sauce;
+	src: url('negat___.ttf');
+}
+
+header{
+	width: 98%;/* make wider */
+	padding: 1%;
+	margin: 0px auto;
+	background-color: black;
+	color: white;
+	overflow: auto;
+}
+
+footer{
+	width: 98%;/* make wider */
+	padding: 1%;
+	margin: 0px auto;
+	background-color: black;
+	color: white;
+	overflow: auto;
+	position: fixed;
+	bottom: 0;
+	
+}
+h1 {
+	color:white;
+	font-family: Techno;
+	text-align: center;
+	font-size: 90px;
+	font-weight: 500;
+}
+
+nav{ 
+	background-color: black;
+	color:white;
+}
+
+nav ul { 
+	width: 100%;
+	background-color: black;
+	margin: 0px auto;
+	text-align: center;
+	color:white;
+}
+
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	width: 20%;
+	padding: 1%;
+	color: white;
+	margin:1%;/*maybe too big */
+	background-color: black;
+	text-align: center;
+	/*Add style rules for type for navigation here */
+	font-family: Verdana, Arial, sans serif;
+}
+
+
+
+img.imgSize{
+	width: auto;
+	height: 300px;
+	margin: 10px;
+
+ }
+
+
+
+h2 {
+	background-color: black;
+	font-family: Sauce;
+	font-size: 75px;
+	text-align: center;
+	font-weight: 7;
+}
+
+h3 {
+	background-color: white;
+	font-family: Sauce;
+	font-weight: 50;
+	text-align: center;
+	font-size: 60px;
+	
+}
+
+h4{
+	background-color: black;
+	font-family: Sauce;
+	font-weight: 50;
+	text-align: center;
+	font-size: 60px;
+	
+}
+
+h5{
+	background-color: black;
+	font-family: Sauce;
+	font-weight: 500;
+	text-align: center;
+	font-size: 60px;
+}
+
+h6 {
+	background-color: black;
+	font-family: Sauce;
+	font-weight: 50;
+	text-align: center;
+	font-size: 60px;
+	
+}
+
+p{ 
+	font-family: alarm;
+	text-align: center;
+}
+
+
+#homepageContent{
+	display: flex;
+	justify-content: center;
+}
+	
+
+
+
+
+form{
+/*ERROR missing style declarations here */
+}
+
+
+table{
+	border: 1px solid white;
+}
+
+
+
+ul { 
+width: 100%;
+background-color: turquoise;
+color: white;
+margin: 0px auto;
+text-align: center;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+/*ERROR missing  text-transform properties */
+
+/*-----------------page 2 style -----------------*/
